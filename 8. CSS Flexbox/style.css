@@ -1,0 +1,73 @@
+.container{
+    background-color: rgba(248, 237, 223, 0.95);
+    border: 5px solid black;
+    height: 400px;
+    margin: 2px;
+    padding: 2px;
+
+    /* to make it flex */
+    display: flex;
+
+    /* flex direction by default(row) */
+    flex-direction: row;
+
+    /* flex wrap to maintain its width & height while squeezing*/
+    flex-wrap: wrap;
+
+    /* shorthand notation for flex direction & wrap */
+    flex-flow: row wrap;
+
+    /* justify content that works on main axis */
+    justify-content: start;
+
+    /* align item works on cross axis by default(stretch)*/
+    align-items: start;
+
+    /* align content */
+    align-content: start;
+}
+
+.box{
+    border: 2px solid blueviolet;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#box1{
+    background-color: aqua;
+
+    /* order to change sequence to flex items */
+    order: 5;
+
+    /* shorthand notation for flex grow, shrink & basis */
+    flex: 0 0 150px;
+}
+
+#box2{
+    background-color: green;
+
+    /* flex item shrink to 4x speed*/
+    flex-shrink: 0;
+}
+
+#box3{
+    background-color: orange;
+
+    /* flex item to grow 2x speed */
+    flex-grow: 0;
+}
+
+#box4{
+    background-color: brown;
+
+    /* order to chnage sequence to flex items */
+    order: -1;
+
+    /* flex basis to set width of the box*/
+    flex-basis: 150px;
+
+    /* align self works on cross axis*/
+    align-self: start;
+}

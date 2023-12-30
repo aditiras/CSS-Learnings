@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* [%] is relative to its parent i.e body */
+.parent{
+    border: 1px solid black;
+    background-color: bisque;
+    width: 60%;
+}
+/* [%] is relative to its parent i.e parent */
+.child{
+    border: 1px solid purple;
+    background-color: darkkhaki;
+    width: 20%;
+}
+
+/* [vw,vh]  */
+.container{
+    border: 2px solid green;
+    background-color: honeydew;
+    margin-top: 50px;
+    height: 100vh;
+    width: 50vw;
+}
+
+.box{
+    font-size: 10px;
+}
+
+/* [em] is relative to its parent i.e box (10*5=50px) */
+.box1{
+    border: 2px solid black;
+    margin-top: 20px;
+    font-size: 5em;
+}
+
+/* [rem] is relative to its root i.e html(16px*5rem=80px) */
+.first{
+    border: 2px solid purple;
+    margin-top: 20px;
+
+    font-size: 5rem;
+}
+
+
+

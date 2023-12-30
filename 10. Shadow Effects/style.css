@@ -1,0 +1,51 @@
+/* custom variables */
+:root{
+    --primary-color: blue;
+    --custom-width: 400px;
+}
+.container{
+    background-color: bisque;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 400px;
+    /* custom variable used */
+    width: var(--custom-width);
+
+    /* shadow effect x,y */
+    box-shadow: 10px 15px blue;
+
+    /* shadow (x,y,blur) */
+    box-shadow: 10px 20px 4px brown;
+
+    /* shadow (x,y,blur,shadow-spread) */
+    box-shadow: 30px 20px 5px 4px brown;
+
+    /* shadow inset or inside */
+    box-shadow: inset 10px 10px 5px blue;
+
+    /* two shadow */
+    box-shadow: 10px 10px blue, 20px 20px brown;
+
+}
+
+.head{
+    /* text shadow added*/
+    text-shadow: 2px 3px brown;
+
+    /* text shadow with blur */
+    text-shadow: 2px 3px 5px blue;
+
+    /* multiple shadow added */
+    text-shadow: 1px 1px 3px red, 4px 3px 2px blue, 2px 4px 3px yellow;
+}

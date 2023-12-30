@@ -1,0 +1,32 @@
+/* fonts properties */
+p{
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+
+    line-height: 30px;
+}
+
+/* named color */
+#first{
+    background-color: brown;
+    color: yellow;
+}
+
+/* rgb color */
+#second{
+    background-color: rgb(48, 42, 76);
+    color: white;
+}
+
+/* hexa-decimal color */
+#third{
+    background-color: #93be6a85
+    ;
+}
+
+/* hsl color */
+.firstclass{
+    background-color: hsl(302, 78%, 73%);
+}

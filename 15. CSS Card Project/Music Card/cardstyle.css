@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card{
+    width: 20%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.imgcard{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.heading{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.para{
+    padding-left: 50px;
+    padding-right: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.amountbox{
+    width: 80%;
+    height: 10%;
+    background-color: rgba(208, 208, 252, 0.89);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.leftbox{
+    display: flex;
+    gap: 10px;
+}
+
+.imgbox{
+    display: flex;
+    align-items: center;
+}
+
+.imgbox img{
+    
+    width: 30px;
+}
+
+.textbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button{
+    width: 80%;
+    height: 10%;
+    border-radius: 8px;
+    background-color:rgb(40, 40, 146);
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#order{
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    font-weight: bold;
+}
+
+
+
+

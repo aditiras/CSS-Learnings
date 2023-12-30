@@ -1,0 +1,42 @@
+div{
+    border: 2px solid black;
+    height: 1500px;
+    background-color: burlywood;
+}
+
+.box{
+    background-color: aquamarine;
+    height: 2000px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid blue;
+}
+
+/* Relative position - gap maintainedd */
+.img2{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+/* Absolute positon - gap filled */
+.img1{
+    position: absolute;
+    top: 50px; 
+}
+
+/* Fixed position */
+.img4{
+    position: fixed;
+}
+
+/* Sticky position */
+.img3{
+    position: sticky;
+    top: 400px;
+}
+

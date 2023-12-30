@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+/* Block display Custom H/W*/
+div{
+    border: 2px solid blue;
+    height: 70px;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Inline display no custom H/W */
+span{
+    border: 3px solid green;
+}
+
+/* Inline as block display */
+.first{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 10px;
+
+    display: block;
+}
+
+/* Inline-block display */
+a{
+    border: 3px solid purple;
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    padding: 20px;
+    margin: 15px;
+
+}

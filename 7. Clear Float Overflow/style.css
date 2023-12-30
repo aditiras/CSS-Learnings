@@ -1,0 +1,58 @@
+div{
+    border: 2px solid black;
+}
+h3{
+    text-decoration: underline;
+}
+/* float right */
+.img1{
+    float: right;
+}
+
+/* float left */
+.img2{
+    float: left;
+}
+
+.img3{
+    border: 1px solid red;
+    float: right;
+}
+
+/* clear right*/
+.img4{
+    border: 1px solid blue;
+    float: right;
+    clear: right;
+}
+
+/* overflow auto */
+.box{
+    overflow: auto;
+}
+
+.item{
+    border: 2px solid green;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+
+    float: left;
+}
+
+/* overflow scroll */
+.box1{
+    margin-top: 30px;
+    height: 500px;
+    width: 500px;
+
+    overflow: scroll;
+}
+
+.item1{
+    height: 300px;
+    width: 500px;
+}
+ 
+
+
